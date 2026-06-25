@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="EduPro Dashboard", layout="wide")
 
-file = "EduPro Online Platform.xlsx"
+file = "../EduPro Online Platform.xlsx"
 
 teachers = pd.read_excel(file, sheet_name="Teachers")
 courses = pd.read_excel(file, sheet_name="Courses")
